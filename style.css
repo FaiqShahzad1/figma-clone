@@ -249,3 +249,13 @@
 .peragraph3{
     width: 400px;
 }
+.heading1{
+    margin-top: 100px;
+    text-align: center;
+}
+.img-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
