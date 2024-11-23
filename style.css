@@ -215,6 +215,37 @@
     position: relative;
     bottom: 90px;
     justify-content: center;
-/* background-color: #EEE8FA; */
-width: 100%;
+    width: 100%;
+}
+.main-div4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.main-h2{
+    font-size: 46px;
+    font-weight: 700;
+}
+.main-p3{
+    width: 500px;
+}
+.main-img3{
+    margin-top: 20px;
+}
+.div-flex{
+    display: flex;
+}
+.div4-p{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #171B26;
+}
+.peragraph2{
+    margin-top: 10px;
+    width: 380px;
+    color: #585C67;
+}
+.peragraph3{
+    width: 400px;
 }
