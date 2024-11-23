@@ -153,15 +153,26 @@
 
 .main-div3 {
     background-color: white;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.time-div {
+    background-color: white;
     margin-top: 100px;
     width: 80%;
     box-shadow: 11px 12px 42px 0px #0000001F;
     border-radius: 18px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 
 .div {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -188,13 +199,22 @@
 
 .heading {
     width: 340px;
-    padding-top : 30px;
+    padding-top: 30px;
 }
-.button{
+
+.button {
     background-color: #6B759D;
     width: 130px;
     height: 50px;
     margin-top: 20px;
     border-radius: 100px;
     border: none;
+}
+
+.coundown-img {
+    position: relative;
+    bottom: 90px;
+    justify-content: center;
+/* background-color: #EEE8FA; */
+width: 100%;
 }
