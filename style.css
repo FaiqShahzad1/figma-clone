@@ -16,6 +16,7 @@
     align-items: center;
     display: flex;
     gap: 35px;
+    margin-left: 10px;
 }
 
 .links {
@@ -41,7 +42,7 @@
 }
 
 .nav-button2 {
-    background-color: #EDE7F9;
+    background-color: #6B759D;
     color: white;
     border: none;
 }
@@ -114,7 +115,6 @@
 }
 
 .main-div2 {
-    width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -136,7 +136,7 @@
 
 .main-img2 {
     left: 40px;
-    background-color: #EDE7F9;
+    background-color: #FAF8FE;
     position: absolute;
     border-radius: 50%;
     width: 128px;
@@ -149,4 +149,52 @@
     padding-top: 90px;
     width: 200px;
     text-align: center;
+}
+
+.main-div3 {
+    background-color: white;
+    margin-top: 100px;
+    width: 80%;
+    box-shadow: 11px 12px 42px 0px #0000001F;
+    border-radius: 18px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.days {
+    color: #D02467;
+    font-size: 72px;
+    font-weight: 700;
+    align-items: center;
+    padding: 50px 0px 0px 30px;
+}
+
+.peragraph {
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.border {
+    border-left: 1px solid #EAEAEA;
+    height: 110px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.heading {
+    width: 340px;
+    padding-top : 30px;
+}
+.button{
+    background-color: #6B759D;
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border: none;
 }
