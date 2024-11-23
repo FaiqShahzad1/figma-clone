@@ -8,6 +8,8 @@
     justify-content: center;
     margin-top: 15px;
     gap: 100px;
+    margin-bottom: 25px;
+    border-bottom: 1px;
 }
 
 .nav-links {
@@ -20,7 +22,8 @@
     color: #2D3340;
     text-decoration: none;
 }
-.button-container{
+
+.button-container {
     display: flex;
     justify-content: space-between;
     width: 225px;
@@ -38,10 +41,112 @@
 }
 
 .nav-button2 {
-    background-color: #6B759D;
+    background-color: #EDE7F9;
     color: white;
     border: none;
 }
-.main-container{
+
+.main-container {
     background: #7F56D90A;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    /* gap: 100px; */
+}
+
+.main-img {
+    margin-top: 100px;
+}
+
+.main-h1 {
+    font-size: 59px;
+    font-weight: 800;
+    color: #6B759D;
+
+    width: 388px;
+}
+
+.main-span {
+    color: #0A0C2C;
+}
+
+.main-span2 {
+    color: #89B9A5;
+}
+
+
+.main-p {
+    font-size: 16px;
+    margin-top: 50px;
+    width: 490px;
+}
+
+.dropdown {
+    width: 180px;
+    height: 50px;
+    margin-top: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.dropdown1 {
+    width: 180px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.dropdown2 {
+    width: 180px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: #6B759D;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.main-img1 {
+    margin-top: 30px;
+}
+
+.main-div2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1 {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    border: 2.23px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    z-index: 10;
+    align-items: center;
+    border: 2px solid #FFFFFF33;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.main-img2 {
+    left: 40px;
+    background-color: #EDE7F9;
+    position: absolute;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    bottom: 100px;
+
+}
+
+.main-p2 {
+    padding-top: 90px;
+    width: 200px;
+    text-align: center;
 }
