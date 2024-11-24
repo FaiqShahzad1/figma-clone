@@ -295,7 +295,6 @@
     font-size: 48px;
 }
 
-
 .img-flex {
     display: flex;
     gap: 20px;
@@ -384,6 +383,7 @@
 .footer-div {
     display: flex;
     gap: 90px;
+    text-align: center;
 }
 
 .footer-links {
@@ -391,6 +391,7 @@
     color: #585C67;
     text-decoration: none;
     margin-top: 10px;
+    text-align: center;
 }
 
 .footer-last {
@@ -404,8 +405,7 @@
 
 @media (max-width:425px) {
     .nav-img1 {
-        display: block;
-
+        display: flex;
     }
 
     .links {
@@ -414,6 +414,7 @@
 
     .button-container {
         display: none;
+
     }
 
     .nav-button {
@@ -427,9 +428,8 @@
     .nav-container {
         display: flex;
         justify-content: space-around;
-        padding-top: 20px;
-        padding-bottom: 20px;
-
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .main-div {
@@ -438,6 +438,7 @@
 
     .main-img {
         margin-left: 20px;
+        margin-top: 40px;
     }
 
 
@@ -467,19 +468,21 @@
 
     .main-image {
         width: 350px;
-        margin-left: 30px;
+        margin-left: 30px; 
     }
 
     .card1 {
         width: 190px;
+        margin-right: 0px;
     }
 
     .main-div2 {
-        margin-left: 20px;
+        margin-left: 10px;
         gap: 10px;
         flex-wrap: wrap;
-        width: 518px;
+        width: 400px;
         justify-content: left;
+        margin-right: 10px;
     }
 
     .main-p2 {
@@ -505,7 +508,7 @@
     }
 
     .coundown-img {
-        width: 430px;
+        width: 420px;
         top: 0px;
         margin-left: 0px;
     }
@@ -552,6 +555,11 @@
         margin-top: 20px;
     }
 
+    .peragraph2{
+        width: 290px;
+        font-size: 14px;
+    }
+
     .main-img3 {
         margin-left: 40px;
     }
@@ -563,7 +571,7 @@
 
     .img-flex {
         flex-wrap: wrap;
-        width: 500px;
+        width: 400px;
         margin-left: 20px;
         justify-content: left;
         gap: 10px;
@@ -624,11 +632,16 @@
     .footerimage {
         margin-left: 50px;
     }
+
     .footer-p {
         margin-left: 20px;
         margin-bottom: 40px;
     }
-    .footer-div{
+
+    .footer-div {
         flex-wrap: wrap;
+        width: 200px;
+        margin-left: 80px;
+        align-items: center;
     }
 }
